@@ -10,5 +10,5 @@ steps:
  # 6: Add angular-cli-ghpages to your project.
     cmd: ng add angular-cli-ghpages
  # 7: ng deploy --base-href=/the-repositoryname/
- # 8: https://<username>.github.io/<repositoryname>
+ # 8: https://username.github.io/repositoryname
   
