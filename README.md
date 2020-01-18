@@ -1,28 +1,14 @@
 check link https://newvishal.github.io/your-angular-project/
-# YourAngularProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+steps:
+  1: npm install -g @angular/cli
+  2: ng new your-angular-project --defaults
+  3: cd your-angular-project
+  4: Create a new empty GitHub repository first.
+  5: Please enter the URL https://github.com/<username>/<repositoryname>.git into your browser – you should see your existing repository on GitHub.
+  cmd: git remote add origin https://github.com/<username>/<repositoryname>.git
+  6: Add angular-cli-ghpages to your project.
+    cmd: ng add angular-cli-ghpages
+  7: ng deploy --base-href=/the-repositoryname/
+  8: https://<username>.github.io/<repositoryname>
+  
