@@ -1,3 +1,4 @@
+how to deploy angular project on angular-cli-ghpages
 check link https://newvishal.github.io/your-angular-project/
 
 steps:
